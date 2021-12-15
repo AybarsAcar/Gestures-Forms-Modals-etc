@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		007B17782769DEA300B428F6 /* FlagDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B17772769DEA300B428F6 /* FlagDetailView.swift */; };
+		007B177A2769E24A00B428F6 /* FlagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B17792769E24A00B428F6 /* FlagViewModel.swift */; };
 		00EB24512768838200642BB3 /* GesturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB24502768838200642BB3 /* GesturesApp.swift */; };
 		00EB24532768838200642BB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB24522768838200642BB3 /* ContentView.swift */; };
 		00EB24552768838400642BB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00EB24542768838400642BB3 /* Assets.xcassets */; };
@@ -14,9 +16,12 @@
 		00EB245F276883CB00642BB3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB245E276883CB00642BB3 /* Card.swift */; };
 		00EB246427688E1200642BB3 /* MyForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB246327688E1200642BB3 /* MyForm.swift */; };
 		00EB24662768936C00642BB3 /* NotificationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB24652768936C00642BB3 /* NotificationForm.swift */; };
+		00EB24682768984E00642BB3 /* MyModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB24672768984E00642BB3 /* MyModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		007B17772769DEA300B428F6 /* FlagDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagDetailView.swift; sourceTree = "<group>"; };
+		007B17792769E24A00B428F6 /* FlagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagViewModel.swift; sourceTree = "<group>"; };
 		00EB244D2768838200642BB3 /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00EB24502768838200642BB3 /* GesturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesApp.swift; sourceTree = "<group>"; };
 		00EB24522768838200642BB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +30,7 @@
 		00EB245E276883CB00642BB3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		00EB246327688E1200642BB3 /* MyForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyForm.swift; sourceTree = "<group>"; };
 		00EB24652768936C00642BB3 /* NotificationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationForm.swift; sourceTree = "<group>"; };
+		00EB24672768984E00642BB3 /* MyModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				00EB24562768838400642BB3 /* Preview Content */,
 				00EB246327688E1200642BB3 /* MyForm.swift */,
 				00EB24652768936C00642BB3 /* NotificationForm.swift */,
+				00EB24672768984E00642BB3 /* MyModal.swift */,
+				007B17772769DEA300B428F6 /* FlagDetailView.swift */,
+				007B17792769E24A00B428F6 /* FlagViewModel.swift */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -149,7 +158,10 @@
 				00EB24532768838200642BB3 /* ContentView.swift in Sources */,
 				00EB246427688E1200642BB3 /* MyForm.swift in Sources */,
 				00EB24662768936C00642BB3 /* NotificationForm.swift in Sources */,
+				00EB24682768984E00642BB3 /* MyModal.swift in Sources */,
+				007B177A2769E24A00B428F6 /* FlagViewModel.swift in Sources */,
 				00EB245F276883CB00642BB3 /* Card.swift in Sources */,
+				007B17782769DEA300B428F6 /* FlagDetailView.swift in Sources */,
 				00EB24512768838200642BB3 /* GesturesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

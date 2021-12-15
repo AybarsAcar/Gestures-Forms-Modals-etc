@@ -17,6 +17,10 @@ struct ContentView: View {
   
   var body: some View {
     
+    VStack {
+      MyModal()
+    
+    
     Card(tapped: tapped)
       .animation(.spring())
       .offset(y: dragState.height)
@@ -40,7 +44,7 @@ struct ContentView: View {
                 .onEnded({ _ in
         tapped.toggle()
       }))
-    
+    }
   }
 }
 
